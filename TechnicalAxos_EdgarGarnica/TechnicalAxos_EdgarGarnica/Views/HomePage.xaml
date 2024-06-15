@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:models="clr-namespace:TechnicalAxos_EdgarGarnica.ItemViewModels" 
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="TechnicalAxos_EdgarGarnica.Views.HomePage"
+             BackgroundColor="White"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Label Text="{Binding BundleId}"
+                VerticalOptions="Start" 
+                FontSize="{x:StaticResource FontSizeMedium}"
+                HorizontalOptions="CenterAndExpand"
+                Grid.Column="0"
+                Grid.Row="0"/>
+
+            <ff:CachedImage
+                Grid.Column="0" Grid.Row="1"
+                Aspect="AspectFit"
+                HeightRequest="200"
+                HorizontalOptions="CenterAndExpand"
+                RetryCount="3"
+                Source="{Binding PicturePath}"/>
+
+            <Button Grid.Row="2" 
+                    Grid.Column="0" 
+                    Text="Take Image" 
+                    TextTransform="None" 
+                    FontSize="{x:StaticResource FontSizeMedium}" 
+                    BackgroundColor="{x:StaticResource ColorPrimary}"  
+                    TextColor="{x:StaticResource ColorTextButton}"
+                    Command="{Binding TakeImageCommand}"></Button>
+
+            <CollectionView
+                Grid.Row="0"
+                Grid.Column="0"
+                IsVisible="True"
+                BackgroundColor="White"
+                Margin="5"
+                VerticalOptions="FillAndExpand"
+                ItemsSource="{Binding CountriesList}"
+                SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:CountryItemViewModel">
+                        <StackLayout Margin="0,0,0,5">
+                            <Frame
+                                Margin="0"
+                                Padding="5"
+                                BackgroundColor="White"
+                                BorderColor="LightGray"
+                                CornerRadius="3"
+                                HasShadow="True">
+                                <Grid
+                                    Padding="0"
+                                    RowSpacing="0"
+                                    VerticalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Orientation="Horizontal" Margin="0" Grid.Row="0" Grid.Column="0">
+                                        <Label Text="Common Name:" TextColor="{x:StaticResource ColorPrimary}" FontAttributes="Bold"/>
+                                        <Label  Text="{Binding name.Common}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Margin="0" Grid.Row="1" Grid.Column="0">
+                                        <Label Text="Official Name:" TextColor="{x:StaticResource ColorPrimary}" FontAttributes="Bold"/>
+                                        <Label Text="{Binding name.Official}" />
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
