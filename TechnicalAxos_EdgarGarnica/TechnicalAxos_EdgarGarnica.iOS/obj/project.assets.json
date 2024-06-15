@@ -2,6 +2,41 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "type": "package",
         "dependencies": {
@@ -352,6 +387,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
           "Xam.Plugin.Media": "6.0.2",
@@ -369,6 +405,41 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "type": "package",
         "dependencies": {
@@ -719,6 +790,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
           "Xam.Plugin.Media": "6.0.2",
@@ -736,6 +808,41 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-arm64": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "type": "package",
         "dependencies": {
@@ -1086,6 +1193,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
           "Xam.Plugin.Media": "6.0.2",
@@ -1103,6 +1211,41 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "type": "package",
         "dependencies": {
@@ -1453,6 +1596,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
           "Xam.Plugin.Media": "6.0.2",
@@ -1470,6 +1614,41 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "type": "package",
         "dependencies": {
@@ -1820,6 +1999,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
           "Xam.Plugin.Media": "6.0.2",
@@ -1838,6 +2018,49 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.2.0.564": {
+      "sha512": "RH+DT3EO/l12EyvOlhhilFizbVMOervE6bepyTccLlSWS+7m828huXefLBYgJ31PGCdiShteXIIkeIdUTRF4iQ==",
+      "type": "package",
+      "path": "acr.userdialogs/7.2.0.564",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.2.0.564.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid10.0/Acr.UserDialogs.dll",
+        "lib/monoandroid10.0/Acr.UserDialogs.xml",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.xml",
+        "lib/uap10.0.19041/Acr.UserDialogs.dll",
+        "lib/uap10.0.19041/Acr.UserDialogs.pri",
+        "lib/uap10.0.19041/Acr.UserDialogs.xml",
+        "lib/uap10.0.19041/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.xml",
+        "lib/xamarinmac20/Acr.UserDialogs.dll",
+        "lib/xamarinmac20/Acr.UserDialogs.xml",
+        "lib/xamarintvos10/Acr.UserDialogs.dll",
+        "lib/xamarintvos10/Acr.UserDialogs.xml",
+        "readme.txt"
+      ]
+    },
+    "BTProgressHUD/1.3.5": {
+      "sha512": "ePARDST+mV/MISU9aLqeWRv7jNM5AGbAbB2ax+x1ctSPcQEAtOyXwjahLkJD1e6YRmuE4k0WiuCpkF44GZlVAw==",
+      "type": "package",
+      "path": "btprogresshud/1.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NOTICE",
+        "btprogresshud.1.3.5.nupkg.sha512",
+        "btprogresshud.nuspec",
+        "icon.png",
+        "lib/xamarinios10/BTProgressHUD.dll",
+        "lib/xamarinios10/BTProgressHUD.pdb",
+        "lib/xamarinios10/BTProgressHUD.xml"
+      ]
+    },
     "DryIoc.dll/4.7.7": {
       "sha512": "GC2JdW0mN3wTcbcteP7LWwfU1eao0If/vMozCXSbcNZbHQD7kBjcKFO82g0OLssr7gGPWS4+vWpNZ1oOy54JKw==",
       "type": "package",

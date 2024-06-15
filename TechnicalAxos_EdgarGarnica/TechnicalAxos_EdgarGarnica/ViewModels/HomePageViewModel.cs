@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Acr.UserDialogs;
+using Newtonsoft.Json;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Prism.Commands;
@@ -90,6 +91,21 @@ namespace TechnicalAxos_EdgarGarnica.ViewModels
             var r = new GenericResponse();
             try
             {
+               r = await PopulateCollectionView();
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Error", ex.Message, "Accept");
+            }
+
+            return r;
+        }
+        public async Task<GenericResponse> PopulateCollectionView()
+        {
+            var r = new GenericResponse();
+            try
+            {
+                UserDialogs.Instance.ShowLoading("Loading..");
                 GenericResponse response = await _connectionService.ApiRequest("all");
 
                 if (response.IsSuccess)
@@ -97,10 +113,12 @@ namespace TechnicalAxos_EdgarGarnica.ViewModels
                     var values = JsonConvert.DeserializeObject<List<CountryItemViewModel>>(response.Result.ToString());
                     CountriesList = new ObservableCollection<CountryItemViewModel>(values);
                 }
+
+                UserDialogs.Instance.HideLoading();
             }
             catch (Exception ex)
             {
-                throw;
+                await App.Current.MainPage.DisplayAlert("Error", ex.Message, "Accept");
             }
 
             return r;
@@ -137,6 +155,12 @@ namespace TechnicalAxos_EdgarGarnica.ViewModels
                         return stream;
                     });
                 }
+                else
+                {
+                    return;
+                }
+
+                UserDialogs.Instance.ShowLoading("Loading..");
 
                 if (ResourceSource != null && ResourceSource.ToString() != "File: faimage")
                 {
@@ -162,6 +186,8 @@ namespace TechnicalAxos_EdgarGarnica.ViewModels
 
                     PicturePath = AbsolutePathNFileName;
                 }
+
+                UserDialogs.Instance.HideLoading();
             }
             catch (Exception ex)
             {
@@ -169,6 +195,5 @@ namespace TechnicalAxos_EdgarGarnica.ViewModels
             }
         }
         #endregion
-
     }
 }

@@ -12,3 +12,4 @@ C:\Workspace\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos
 C:\Workspace\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\obj\Debug\netstandard2.0\TechnicalAxos_EdgarGarnica.dll
 C:\Workspace\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\obj\Debug\netstandard2.0\TechnicalAxos_EdgarGarnica.pdb
 C:\Workspace\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Workspace\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\obj\Debug\netstandard2.0\TechnicalAxos_EdgarGarnica.sourcelink.json

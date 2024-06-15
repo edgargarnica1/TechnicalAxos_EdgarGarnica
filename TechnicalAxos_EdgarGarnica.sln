@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalAxos_EdgarGarnica", "TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica.csproj", "{F61811DC-02AF-42B0-A9FB-E87FC229D9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalAxos_EdgarGarnica", "TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica.csproj", "{F61811DC-02AF-42B0-A9FB-E87FC229D9E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalAxos_EdgarGarnica.Android", "TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica.Android\TechnicalAxos_EdgarGarnica.Android.csproj", "{552195A5-BD73-4EF4-BD6F-E82F72229CFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalAxos_EdgarGarnica.iOS", "TechnicalAxos_EdgarGarnica\TechnicalAxos_EdgarGarnica.iOS\TechnicalAxos_EdgarGarnica.iOS.csproj", "{0AB31114-B3BE-456D-B844-6CF2FD370B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalAxos_EdgarGarnica.Tests", "TechnicalAxos_EdgarGarnica.Tests\TechnicalAxos_EdgarGarnica.Tests.csproj", "{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +111,30 @@ Global
 		{0AB31114-B3BE-456D-B844-6CF2FD370B71}.Release|iPhone.Build.0 = Release|iPhone
 		{0AB31114-B3BE-456D-B844-6CF2FD370B71}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{0AB31114-B3BE-456D-B844-6CF2FD370B71}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|iPhone.Build.0 = Release|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A26E5B8C-2B21-40BD-A28E-E122F21D3D41}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

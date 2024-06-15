@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechnicalAxos_EdgarGarnica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcbce97ec83c8f9abfdcdd0764e364bf2f566f47")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechnicalAxos_EdgarGarnica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechnicalAxos_EdgarGarnica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

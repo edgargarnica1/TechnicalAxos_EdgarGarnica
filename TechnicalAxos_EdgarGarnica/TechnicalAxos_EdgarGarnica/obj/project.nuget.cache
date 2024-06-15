@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z35blfcaejDnzoXG7HtkB//BCbzk+Ul2vR3/JZ/cwF0MKeYYkoUUm/nvPZ3/HeH0fEIQ8aX/j3n1IV5mc9wDYA==",
+  "dgSpecHash": "Wk1jqHZoZe/nAPPUjeCgJo9v4e5e5Fba0fjlvRMJY52RYPzi/6Q3mdfw+9YbZ57yJICmD/OUBdw53ZkuJ+p9BA==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\TechnicalAxos_EdgarGarnica\\TechnicalAxos_EdgarGarnica\\TechnicalAxos_EdgarGarnica\\TechnicalAxos_EdgarGarnica.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Cemsoft02\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
     "C:\\Users\\Cemsoft02\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\Cemsoft02\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Cemsoft02\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
